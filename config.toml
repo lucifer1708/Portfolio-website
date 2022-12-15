@@ -1,5 +1,4 @@
-baseURL = ""
-relativeURLs = "True"
+baseURL = "https://lucifer1708.github.io"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 publishDir = "docs"
