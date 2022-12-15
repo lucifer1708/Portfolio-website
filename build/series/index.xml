@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on SUMIT DHIMAN</title>
+    <link>http://lucifer1708.github.io/series/</link>
+    <description>Recent content in Series on SUMIT DHIMAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Feb 2022 16:04:06 -0500</lastBuildDate><atom:link href="http://lucifer1708.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>quickstart</title>
+      <link>http://lucifer1708.github.io/series/quickstart/</link>
+      <pubDate>Mon, 21 Feb 2022 16:04:06 -0500</pubDate>
+      
+      <guid>http://lucifer1708.github.io/series/quickstart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>example posts</title>
+      <link>http://lucifer1708.github.io/series/example-posts/</link>
+      <pubDate>Sun, 20 Feb 2022 12:04:16 -0500</pubDate>
+      
+      <guid>http://lucifer1708.github.io/series/example-posts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
