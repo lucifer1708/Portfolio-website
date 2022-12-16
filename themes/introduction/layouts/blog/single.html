@@ -52,7 +52,16 @@
             <i class="fab fa-pinterest-p"></i>
             <span class="hidden">Pinterest</span>
         </a>
+
         {{ end }}
+   {{ if .Site.Params.share.whatsapp}}
+        <a class="icon-pinterest"
+            href="whatsapp://send?text=={{ .Permalink }}{{ if .Params.pinterestMedia }}&amp;media={{ .Site.BaseURL }}{{ .Params.whatsappMedia}}{{ end }}&amp;description={{ .Title | safeHTML}}"
+            onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-whatsapp"></i>
+            <span class="hidden">WhatsApp</span>
+        </a>
+    {{ end }}
     </div>
     {{ end }}
     {{ range $taxonomy_term, $taxonomy := .Params }}
