@@ -1,4 +1,4 @@
-baseURL = "https://lucifer1708.github.io"
+baseURL = "https://sumitdhiman.live"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 publishDir = "docs"
