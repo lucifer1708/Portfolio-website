@@ -7,32 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://lucifer1708.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Photography</title>
-      <link>https://lucifer1708.github.io/projects/photography/</link>
+      <title>Arch based distro for my own use</title>
+      <link>https://lucifer1708.github.io/projects/archfire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucifer1708.github.io/projects/photography/</guid>
-      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
+      <guid>https://lucifer1708.github.io/projects/archfire/</guid>
+      <description>Project link on sourceforge.net</description>
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://lucifer1708.github.io/projects/design/</link>
+      <title>Backend for Prodyogiki website</title>
+      <link>https://lucifer1708.github.io/projects/backend-prody/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucifer1708.github.io/projects/design/</guid>
-      <description>This theme was designed by Victoria Drake. Go on, explore! 💪
-If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
+      <guid>https://lucifer1708.github.io/projects/backend-prody/</guid>
+      <description>This repo contains the code of backend &amp;amp; frontend of this prodyogiki website.
+Prodyogiki is our society TechFest.</description>
     </item>
     
     <item>
-      <title>Writing</title>
-      <link>https://lucifer1708.github.io/projects/writing/</link>
+      <title>Interview Website</title>
+      <link>https://lucifer1708.github.io/projects/interview-website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lucifer1708.github.io/projects/writing/</guid>
-      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
-To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+      <guid>https://lucifer1708.github.io/projects/interview-website/</guid>
+      <description>Repo link</description>
     </item>
     
   </channel>

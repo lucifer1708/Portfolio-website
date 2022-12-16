@@ -2,64 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lucifer1708.github.io/projects/photography/</loc>
+    <loc>https://lucifer1708.github.io/projects/archfire/</loc>
   </url><url>
-    <loc>https://lucifer1708.github.io/projects/design/</loc>
+    <loc>https://lucifer1708.github.io/projects/backend-prody/</loc>
   </url><url>
-    <loc>https://lucifer1708.github.io/projects/writing/</loc>
+    <loc>https://lucifer1708.github.io/projects/interview-website/</loc>
   </url><url>
     <loc>https://lucifer1708.github.io/projects/</loc>
   </url><url>
     <loc>https://lucifer1708.github.io/blog/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
+  </url><url>
+    <loc>https://lucifer1708.github.io/tags/bash/</loc>
   </url><url>
     <loc>https://lucifer1708.github.io/tags/blog/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
-    <loc>https://lucifer1708.github.io/tags/features/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
+    <loc>https://lucifer1708.github.io/tags/linux/</loc>
+  </url><url>
+    <loc>https://lucifer1708.github.io/blog/linux-shell/</loc>
   </url><url>
     <loc>https://lucifer1708.github.io/series/quickstart/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
     <loc>https://lucifer1708.github.io/series/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
+  </url><url>
+    <loc>https://lucifer1708.github.io/tags/shell/</loc>
   </url><url>
     <loc>https://lucifer1708.github.io/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/blog/multi-author/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
     <loc>https://lucifer1708.github.io/tags/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/series/example-posts/</loc>
-    <lastmod>2022-02-20T12:04:16-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/tags/images/</loc>
-    <lastmod>2022-02-20T12:04:16-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/blog/coffee-ipsum/</loc>
-    <lastmod>2022-02-20T12:04:16-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/blog/configuration/</loc>
-    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/tags/code/</loc>
-    <lastmod>2020-07-25T02:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/blog/long-form-post/</loc>
-    <lastmod>2019-05-30T20:18:53-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/tags/markdown/</loc>
-    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/blog/startup-ipsum/</loc>
-    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://lucifer1708.github.io/blog/no-date/</loc>
-  </url><url>
-    <loc>https://lucifer1708.github.io/tags/words/</loc>
   </url>
 </urlset>
