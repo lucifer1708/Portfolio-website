@@ -62,7 +62,10 @@ publishDir = "docs"
         url = "mailto:sd08012003@gmail.com"  # For a direct email link, use "mailto:test@example.org".
         icon = "paper-plane" # icon name without the 'fa-'
         icon_pack = "fas"
-
+  [[params.social]]
+        url = "https://github.com/lucifer1708"  # github
+        icon = "github" # icon name without the 'fa-'
+        icon_pack = "fab"
 
 # You can add more by yourself
 [taxonomies]
