@@ -14,4 +14,4 @@ This is **Sumit Dhiman**, I am a Linux Enthuisiast from India.
 - 🌱 I use Arch BTW :)
 - 🌐 I love to learn about Computer Networks.
 - 💻 Going to settle into the world of CLI.
-- 📫 How to reach me: &nbsp;[LinkedIn](https://www.linkedin.com/in/20bce091-sumit)
+- 📫 How to reach me: &nbsp;[LinkedIn](https://www.linkedin.com/in/sumit-dhiman-20bce091/)
