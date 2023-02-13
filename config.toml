@@ -1,6 +1,8 @@
-baseURL = 'http://example.site'
+# baseURL = 'http://sumitdhiman.live'
+baseURL = "https://lucifer1708.github.io"
 languageCode = 'en-us'
 theme = "nightfall"
+publishDir = "docs"
 
 [menu]
   [[menu.header]]
