@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on </title>
+    <link>http://sumitdhiman.live/projects/</link>
+    <description>Recent content in Projects on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example projects card</title>
+      <link>http://sumitdhiman.live/projects/markdown-syntax/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/markdown-syntax/</guid>
+      <description>This is showing basics of a project blog baad main add krenge ye b !! func main(){ fmt.Println(&amp;#34;Wait kro abhi&amp;#34;) } </description>
+    </item>
+    
+  </channel>
+</rss>
