@@ -6,7 +6,7 @@ publishDir = "docs"
   [[menu.header]]
     name = "Resume"
     weight = 4
-    url = "resume"
+    url = "/sumit-dhiman.pdf"
   [[menu.header]]
     name = "About"
     weight = 3
@@ -28,17 +28,17 @@ hostname = "portfolio"
 [[params.social]]
 key = 0
 name = "github"
-url = "https://github.com/gohugoio"
+url = "https://github.com/lucifer1708"
 icon = "fa-brands fa-github"
 
 [[params.social]]
 key = 2
 name = "linkedin"
-url = "https://www.example.com"
+url = "https://linkedin.com/in/20bce091-sumit-dhiman"
 icon = "fa-brands fa-linkedin"
 
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:email@example.com"
+url = "mailto:sd08012003@gmail.com"
 icon ="fa-solid fa-envelope"
