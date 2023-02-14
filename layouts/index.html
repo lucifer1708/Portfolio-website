@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <title>
+    Home | {{ .Site.Params.author }}
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  {{ partial "head.html" . }}
+
+</head>
+
+<body>
+
+  <div class="flexWrapper">
+    {{ partial "header.html" . }}
+
+    <div class="content vertical">
+      <main class="main">
+
+        <section class="hero" data-sub-text="Welcome">
+          <div class="container-hero">
+            <div class="welcome-content">
+              <div class="highlight-text">
+                <h1 class="myname">SUMIT DHIMAN</h1>
+              </div>
+              <div class="desc-text">
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </section>
+        {{ partial "social.html" . }}
+      </main>
+    </div>
+
+
+    {{ partial "footer.html" . }}
+  </div>
+
+</body>
+
+</html>

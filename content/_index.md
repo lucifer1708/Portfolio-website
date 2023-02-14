@@ -1,3 +1,3 @@
 +++
-author = "Sumit Dhiman"
+author = "Hugo Authors"
 +++

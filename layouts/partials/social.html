@@ -1,0 +1,34 @@
+<!-- <div class="socialNavbar"> -->
+<!--     <ul> -->
+<!--         {{ range sort .Site.Params.social "key"}} -->
+<!--         <li> -->
+<!--             <a href="{{ .url | safeURL }}">{{ .name }}</a> -->
+<!--         </li> -->
+<!--         {{ end }} -->
+<!--     </ul> -->
+<!-- </div> -->
+
+
+<div class="socialNavbar">
+  <ul>
+
+    {{ range sort .Site.Params.social "key"}}
+    <li>
+      <a href="{{ .url | safeURL }}"><i class="{{ .icon }}"></i></a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+<style>
+  i {
+    font-size: 40px;
+    width: 2em;
+    transition: all 0.5s;
+  }
+
+  i:hover {
+    color: #ff0046;
+    transition: all 0.5s;
+  }
+</style>

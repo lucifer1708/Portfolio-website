@@ -1,46 +1,44 @@
-# baseURL = 'http://sumitdhiman.live'
-baseURL = "https://lucifer1708.github.io"
+baseURL = 'http://gohugo.io/'
 languageCode = 'en-us'
-theme = "nightfall"
-publishDir = "docs"
+# theme = "nightfall"
 
 [menu]
+  [[menu.header]]
+    name = "Resume"
+    weight = 4
+    url = "resume"
+  [[menu.header]]
+    name = "About"
+    weight = 3
+    url = "about"
   [[menu.header]]
     name = "Blog"
     weight = 2
     url = "blog"
   [[menu.header]]
-    name = "About"
-    weight = 2
-    url = "about"
-  [[menu.header]]
     name = "Projects"
-    weight = 2
-    url = "/projects"
-  [[menu.header]]
-    name = "Resume"
-    weight = 0
-    url = "/resume"
+    weight = 1
+    url = "projects"
 
 [params]
 author = "Sumit Dhiman"
-user = "lucifer"
-hostname = "protfolio"
+user = "sumit"
+hostname = "portfolio"
 
 [[params.social]]
 key = 0
 name = "github"
-url = "https://github.com/lucifer1708"
+url = "https://github.com/gohugoio"
 icon = "fa-brands fa-github"
 
 [[params.social]]
 key = 2
 name = "linkedin"
-url = "https://linkedin.com/in/20bce091-sumit-dhiman"
+url = "https://www.example.com"
 icon = "fa-brands fa-linkedin"
 
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:sd08012003@gmail.com"
-icon = "fa-solid fa-envelope"
+url = "mailto:email@example.com"
+icon ="fa-solid fa-envelope"
