@@ -5,15 +5,18 @@
 
 {{ define "main" }}
 <div class="postWrapper">
-    <h1 style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 3px;">{{ .Title }}</h1>
-    <div>
-        {{ .Content }}
-    </div>
+  <h1 style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 3px;">{{ .Title }}
+  </h1>
+  <p style="font-size: 20px;"><strong>Date: </strong>{{.Date.Format "January 2006"}}</p>
+  <hr>
+  <div>
+    {{ .Content }}
+  </div>
 </div>
 
 <style>
-pre{
-  font-size: 24px;
-}
+  pre {
+    font-size: 24px;
+  }
 </style>
 {{ end }}
