@@ -25,14 +25,5 @@
       <description>This is showing basics of a project blog baad main add krenge ye b !! 1package main 2 3import ( 4	&amp;#34;encoding/json&amp;#34; 5	&amp;#34;flag&amp;#34; 6	&amp;#34;fmt&amp;#34; 7	&amp;#34;io&amp;#34; 8	&amp;#34;io/ioutil&amp;#34; 9	&amp;#34;net/http&amp;#34; 10	&amp;#34;net/url&amp;#34; 11	&amp;#34;os&amp;#34; 12	&amp;#34;path&amp;#34; 13	&amp;#34;strconv&amp;#34; 14) 15 16func main() { 17	apiurl, err := url.Parse(&amp;#34;https://wallhaven.cc/api/v1/search&amp;#34;) 18	checkNil(err) 19	values := apiurl.Query() 20	fmt.Println(&amp;#34;Fetching Data........&amp;#34;) 21	fmt.Println(&amp;#34;Downloading will start soon........&amp;#34;) 22	str, n := takeArgs() 23	values.</description>
     </item>
     
-    <item>
-      <title>About</title>
-      <link>http://sumitdhiman.live/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://sumitdhiman.live/about/</guid>
-      <description>This page is under constuction !!! </description>
-    </item>
-    
   </channel>
 </rss>
