@@ -7,7 +7,12 @@
 <div class="postWrapper">
   <h1 style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 3px;">{{ .Title }}
   </h1>
-  <p style="font-size: 20px;"><strong>Date: </strong>{{.Date.Format "January 2006"}}</p>
+  <p style="font-size: 20px;"><strong>Author: </strong> {{ .Params.author }}</p>
+  Tags:
+  {{ range .Params.tags}}
+  <a href="" class="tag red">{{ . }}</a>
+  {{end }}
+  <p style="font-size: 20px;">{{.Date.Format "January 2, 2006"}}</p>
   <hr>
   <div>
     {{ .Content }}
@@ -17,6 +22,42 @@
 <style>
   pre {
     font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    letter-spacing: .5px;
+    box-shadow: -4px 0px 20px #000;
+  }
+
+  img {
+    width: 100%;
+    box-shadow: -4px 0px 20px #000;
+    height: 40%;
+  }
+
+  pre::-webkit-scrollbar {
+    background-color: #DED7E6;
+    height: 10px;
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background: #9684A3;
+    border-top-right-radius: 10px;
+  }
+
+  .tag {
+    margin: 0 2px;
+    background-color: #ff0046;
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 80%;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 </style>
 {{ end }}
