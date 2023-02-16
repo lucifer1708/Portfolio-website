@@ -56,7 +56,7 @@ icon = "fa-brands fa-github"
 [[params.social]]
 key = 2
 name = "linkedin"
-url = "https://linkedin.com/in/20bce091-sumit-dhiman"
+url = "https://linkedin.com/in/sumit-dhiman-20bce091"
 icon = "fa-brands fa-linkedin"
 
 [[params.social]]
