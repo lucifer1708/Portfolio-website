@@ -5,28 +5,25 @@
     <loc>http://sumitdhiman.live/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/tags/beginners/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/categories/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sumitdhiman.live/tags/css/</loc>
+    <loc>http://sumitdhiman.live/tags/code/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sumitdhiman.live/post/markdown-syntax/</loc>
+    <loc>http://sumitdhiman.live/categories/coding/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sumitdhiman.live/projects/markdown-syntax/</loc>
+    <loc>http://sumitdhiman.live/tags/go-lang/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sumitdhiman.live/tags/html/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://sumitdhiman.live/tags/markdown/</loc>
+    <loc>http://sumitdhiman.live/tags/hello-world/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/post/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://sumitdhiman.live/projects/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/categories/syntax/</loc>
@@ -35,11 +32,13 @@
     <loc>http://sumitdhiman.live/tags/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sumitdhiman.live/categories/themes/</loc>
+    <loc>http://sumitdhiman.live/post/markdown-syntax/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/about/</loc>
   </url><url>
     <loc>http://sumitdhiman.live/tags/index/</loc>
+  </url><url>
+    <loc>http://sumitdhiman.live/projects/</loc>
   </url>
 </urlset>

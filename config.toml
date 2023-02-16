@@ -12,7 +12,7 @@ publishDir = "docs"
     hl_inline = false 
     lineAnchors = ''
     lineNoStart = 1
-    lineNos = true 
+    lineNos = false
     lineNumbersInTable = false 
     noClasses = true
     noHl = true
@@ -44,6 +44,8 @@ publishDir = "docs"
 author = "Sumit Dhiman"
 user = "sumit"
 hostname = "portfolio"
+search=true
+search_minify=false
 
 [[params.social]]
 key = 0
@@ -62,3 +64,8 @@ key = 3
 name = "email"
 url = "mailto:sd08012003@gmail.com"
 icon ="fa-solid fa-envelope"
+
+
+[outputs]
+  home = ['HTML', 'RSS']
+  page = ['HTML']

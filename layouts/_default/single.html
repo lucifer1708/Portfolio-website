@@ -17,17 +17,23 @@
   <div>
     {{ .Content }}
   </div>
-
-{{ partial "share-buttons.html" . }}
+  <hr>
+  {{ partial "share-buttons.html" . }}
 </div>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&display=swap');
   pre {
     font-size: 24px;
     border-radius: 10px;
     padding: 10px;
     letter-spacing: .5px;
     box-shadow: -4px 0px 20px #000;
+  }
+
+  pre:hover {
+    color: #000;
   }
 
   img {
@@ -52,10 +58,15 @@
     padding: 4px 10px;
     color: #fff;
     font-size: 80%;
-    font-family: sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 
+  }
+
+  code {
+    font-size: 16px;
+    padding-left: 5px;
   }
 
   a:hover {

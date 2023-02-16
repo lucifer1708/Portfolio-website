@@ -1,4 +1,7 @@
 // Colors
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 $darkGrey: #323232;
 $white: #f8f8ff;
 $black: #2f2f2f;
@@ -8,9 +11,10 @@ $backgroundDarker: #252627;
 $backgroundDark: #292a2d;
 
 //Fonts
-$fontHeader: 'Fira Mono', monospace;
-$fontParagraph: 'Open Sans', sans-serif;
-$fontCode: 'Fira Mono', monospace;
+// $fontHeader: 'Fira Mono', monospace;
+$fontHeader: 'Mulish', sans-serif;
+$fontParagraph: 'Mukta', sans-serif;
+$fontCode: 'JetBrains Mono', sans-serif;
 
 // Content
 $breakLarge: 992px;

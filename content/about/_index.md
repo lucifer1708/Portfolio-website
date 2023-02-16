@@ -1,9 +1,8 @@
 +++
 author = "Sumit Dhiman"
-img = "./img.png"
+img = "./profile.jpg"
 +++
 
-### An linux enthusiast
-This is a about page in `/content/about/_index.md`
+### I am a Linux enthusiast & Backend Developer from India.
 
-edit it and you will get the results.
+I am from Hamirpur, Himachal Pradesh. I am a Linux enthusiast, Video editor, Backend Developer currently pursuing Civil Engineering from National Institute of Technology, Hamirpur

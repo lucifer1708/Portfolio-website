@@ -8,29 +8,38 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>css</title>
-      <link>http://sumitdhiman.live/tags/css/</link>
+      <title>Beginners</title>
+      <link>http://sumitdhiman.live/tags/beginners/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/tags/css/</guid>
+      <guid>http://sumitdhiman.live/tags/beginners/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>http://sumitdhiman.live/tags/html/</link>
+      <title>Code</title>
+      <link>http://sumitdhiman.live/tags/code/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/tags/html/</guid>
+      <guid>http://sumitdhiman.live/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>http://sumitdhiman.live/tags/markdown/</link>
+      <title>GO Lang</title>
+      <link>http://sumitdhiman.live/tags/go-lang/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/tags/markdown/</guid>
+      <guid>http://sumitdhiman.live/tags/go-lang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://sumitdhiman.live/tags/hello-world/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/hello-world/</guid>
       <description></description>
     </item>
     

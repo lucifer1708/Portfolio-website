@@ -1,29 +1,61 @@
 +++
 author = "Sumit Dhiman"
-title = "Example projects card"
+title = "Writing your first Go Lang program"
 date = "2023-02-14"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description = "Article to implementing beginners first GO Lang program"
 tags = [
-    "markdown",
-    "css",
-    "html",
+    "GO Lang",
+    "Code",
+    "Hello World",
+    "Beginners"
 ]
 categories = [
-    "themes",
+    "Coding",
     "syntax",
 ]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
+series = ["Go Lang"]
+aliases = ["Writing Go Lang Code"]
 +++
 
+# What is GO Lang?
+Go is an open-source, statically typed programming language designed to build scalable, secure, easy-to-use systems.
+Given that Go Lang was created by **Google**, Google Go is another moniker for it.
+It was developed to fill the gap between Java and C++ to provide code that is easy to understand, maintain, and execute without degrading.
+Go is a compiled language with features that are comparable to those of C and C++ and share the same initial main function. 
 
-# This is showing basics of a blog
-## baad main add krenge ye b !!
-Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+### Installing Go:
+- For windows users:  https://go.dev/dl/
+- For Linux users:
+  - Arch Linux: ``sudo pacman -S go``
+  - Debian: ``sudo apt install go``
 
- ```go
-func main(){
-    fmt.Println("Wait kro abhi")
-  }
+
+### Let's start creating our first Hello world code:
+- #### First of all create a folder using following command: 
+```shell
+ mkdir <Your folder>
 ```
+- #### Now `cd` into your folder and create a file named **`main.go`**.
+```shell
+ cd <Your folder>
+ touch main.go
+```
+- #### Now we need to initialize our go module in this folder.
+```shell
+go mod init <your module name>
+```
+- #### We have initiated our module. So, we can start editing our **`main.go`** file.
+- #### Here, you can see written `package main`, this determine its package name so that we can import go function from one directory to another.
+- #### ``fmt`` package stands for ``format``. It is used to print our data by using ``Println`` function
+```go
+package main
+import "fmt"
+
+func main(){
+    fmt.Println("Hello!, World")
+}
+```
+
+
+
 

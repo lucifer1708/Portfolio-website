@@ -8,21 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/categories/syntax/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example projects card</title>
+      <title>Writing your first Go Lang program</title>
       <link>http://sumitdhiman.live/post/markdown-syntax/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://sumitdhiman.live/post/markdown-syntax/</guid>
-      <description>This is showing basics of a blog baad main add krenge ye b !! Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate.</description>
-    </item>
-    
-    <item>
-      <title>Example projects card</title>
-      <link>http://sumitdhiman.live/projects/markdown-syntax/</link>
-      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://sumitdhiman.live/projects/markdown-syntax/</guid>
-      <description>This is showing basics of a project blog baad main add krenge ye b !! 1package main 2 3import ( 4	&amp;#34;encoding/json&amp;#34; 5	&amp;#34;flag&amp;#34; 6	&amp;#34;fmt&amp;#34; 7	&amp;#34;io&amp;#34; 8	&amp;#34;io/ioutil&amp;#34; 9	&amp;#34;net/http&amp;#34; 10	&amp;#34;net/url&amp;#34; 11	&amp;#34;os&amp;#34; 12	&amp;#34;path&amp;#34; 13	&amp;#34;strconv&amp;#34; 14) 15 16func main() { 17	apiurl, err := url.Parse(&amp;#34;https://wallhaven.cc/api/v1/search&amp;#34;) 18	checkNil(err) 19	values := apiurl.Query() 20	fmt.Println(&amp;#34;Fetching Data........&amp;#34;) 21	fmt.Println(&amp;#34;Downloading will start soon........&amp;#34;) 22	str, n := takeArgs() 23	values.</description>
+      <description>What is GO Lang? Go is an open-source, statically typed programming language designed to build scalable, secure, easy-to-use systems. Given that Go Lang was created by Google, Google Go is another moniker for it. It was developed to fill the gap between Java and C++ to provide code that is easy to understand, maintain, and execute without degrading. Go is a compiled language with features that are comparable to those of C and C++ and share the same initial main function.</description>
     </item>
     
   </channel>
