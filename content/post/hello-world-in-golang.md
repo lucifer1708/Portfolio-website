@@ -17,7 +17,6 @@ series = ["Go Lang"]
 aliases = ["Writing Go Lang Code"]
 +++
 
-# What is GO Lang?
 Go is an open-source, statically typed programming language designed to build scalable, secure, easy-to-use systems.
 Given that Go Lang was created by **Google**, Google Go is another moniker for it.
 It was developed to fill the gap between Java and C++ to provide code that is easy to understand, maintain, and execute without degrading.

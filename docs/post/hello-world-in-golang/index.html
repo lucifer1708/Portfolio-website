@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>
+Writing your first Go Lang program | Sumit Dhiman
+</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.110.0">
+
+
+<link rel="canonical" href="http://sumitdhiman.live/post/hello-world-in-golang/">
+<link href="/sass/main.min.f711d5f3b2ed08dbc8ceb0ed3496ce68739705a159d31c54c597f988195a6dd6.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+  <div class="flexWrapper">
+    <header>
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div style="color: white;" class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+
+        
+        <li><a class="link" href="http://sumitdhiman.live/" title="">Home</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/projects" title="">Projects</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/blog" title="">Blog</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/about" title="">About</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/resume.pdf" title="">Résumé</a></li>
+        
+      </ul>
+      <h1 class="logo"> <a class="logo-link" href="/">lucifer@protfolio ~ $</a></h1>
+    </div>
+  </nav>
+</header>
+<style>
+  .navbar input[type="checkbox"],
+  .navbar .hamburger-lines {
+    display: none;
+  }
+
+  .container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .navbar {
+    box-shadow: 0px 5px 10px 0px #141313;
+    position: fixed;
+    width: 100%;
+    background: #252627;
+    color: white;
+    opacity: 0.85;
+    z-index: 100;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    top: 0px;
+    padding-top: 0px;
+    align-items: center;
+  }
+
+  .menu-items {
+    order: 2;
+    display: flex;
+  }
+
+  .logo {
+    order: 1;
+    font-size: 1.3rem;
+  }
+
+  a.logo-link {
+    color: white;
+  }
+
+  a.logo-link:hover {
+    color: white;
+  }
+
+  .menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .navbar a.link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navbar a.link:hover {
+    color: #ff0046;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      opacity: 0.95;
+    }
+
+    .navbar-container input[type="checkbox"],
+    .navbar-container .hamburger-lines {
+      display: block;
+    }
+
+    .navbar-container {
+      display: block;
+      position: relative;
+      height: 64px;
+    }
+
+    .navbar-container input[type="checkbox"] {
+      position: absolute;
+      display: block;
+      height: 32px;
+      width: 30px;
+      top: 20px;
+      left: 20px;
+      z-index: 5;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .navbar-container .hamburger-lines {
+      display: block;
+      height: 28px;
+      width: 35px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      justify-content: space-between;
+    }
+
+    .navbar-container .hamburger-lines .line {
+      display: block;
+      height: 4px;
+      width: 100%;
+      border-radius: 10px;
+      background: #333;
+    }
+
+    .navbar-container .hamburger-lines .line1 {
+      transform-origin: 0% 0%;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-container .hamburger-lines .line2 {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .navbar-container .hamburger-lines .line3 {
+      transform-origin: 0% 100%;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar .menu-items {
+      padding-top: 100px;
+      background: #252627;
+      height: 100vh;
+      color: white;
+      max-width: 200px;
+      transform: translate(-150%);
+      display: flex;
+      flex-direction: column;
+      margin-left: -40px;
+      padding-left: 40px;
+      transition: transform 0.5s ease-in-out;
+      box-shadow: 5px 0px 10px 0px #141313;
+      overflow: scroll;
+      margin-top: 0px;
+    }
+
+    .navbar .menu-items li {
+      margin-bottom: 1.8rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .logo {
+      position: absolute;
+      top: 0px;
+      right: 15px;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .navbar-container input[type="checkbox"]:checked~.menu-items {
+      transform: translateX(0);
+    }
+
+    .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+      transform: rotate(45deg);
+    }
+
+    .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+      transform: scaleY(0);
+    }
+
+    .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+      transform: rotate(-45deg);
+    }
+
+  }
+
+  @media (max-width: 500px) {
+    .navbar-container input[type="checkbox"]:checked~.logo {
+      display: none;
+    }
+  }
+</style>
+
+
+    <div class="content">
+      <main class="main">
+        
+<div class="postWrapper">
+  <h1 style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 3px;">Writing your first Go Lang program
+  </h1>
+  <p style="font-size: 20px;"><strong>Author: </strong> Sumit Dhiman</p>
+  Tags:
+  
+  <a href="" class="tag red">GO Lang</a>
+  
+  <a href="" class="tag red">Code</a>
+  
+  <a href="" class="tag red">Hello World</a>
+  
+  <a href="" class="tag red">Beginners</a>
+  
+  <p style="font-size: 20px;">February 14, 2023</p>
+  <hr>
+  <div>
+    <p>Go is an open-source, statically typed programming language designed to build scalable, secure, easy-to-use systems.
+Given that Go Lang was created by <strong>Google</strong>, Google Go is another moniker for it.
+It was developed to fill the gap between Java and C++ to provide code that is easy to understand, maintain, and execute without degrading.
+Go is a compiled language with features that are comparable to those of C and C++ and share the same initial main function.</p>
+<h3 id="installing-go">Installing Go:</h3>
+<ul>
+<li>For windows users:  <a href="https://go.dev/dl/">https://go.dev/dl/</a></li>
+<li>For Linux users:
+<ul>
+<li>Arch Linux: <code>sudo pacman -S go</code></li>
+<li>Debian: <code>sudo apt install go</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="lets-start-creating-our-first-hello-world-code">Let&rsquo;s start creating our first Hello world code:</h3>
+<ul>
+<li>
+<h4 id="first-of-all-create-a-folder-using-following-command">First of all create a folder using following command:</h4>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span> mkdir &lt;Your folder&gt;
+</span></span></code></pre></div><ul>
+<li>
+<h4 id="now-cd-into-your-folder-and-create-a-file-named-maingo">Now <code>cd</code> into your folder and create a file named <strong><code>main.go</code></strong>.</h4>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span> <span style="color:#ea9a97">cd</span> &lt;Your folder&gt;
+</span></span><span style="display:flex;"><span> touch main.go
+</span></span></code></pre></div><ul>
+<li>
+<h4 id="now-we-need-to-initialize-our-go-module-in-this-folder">Now we need to initialize our go module in this folder.</h4>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>go mod init &lt;your module name&gt;
+</span></span></code></pre></div><ul>
+<li>
+<h4 id="we-have-initiated-our-module-so-we-can-start-editing-our-maingo-file">We have initiated our module. So, we can start editing our <strong><code>main.go</code></strong> file.</h4>
+</li>
+<li>
+<h4 id="here-you-can-see-written-package-main-this-determine-its-package-name-so-that-we-can-import-go-function-from-one-directory-to-another">Here, you can see written <code>package main</code>, this determine its package name so that we can import go function from one directory to another.</h4>
+</li>
+<li>
+<h4 id="fmt-package-stands-for-format-it-is-used-to-print-our-data-by-using-println-function"><code>fmt</code> package stands for <code>format</code>. It is used to print our data by using <code>Println</code> function</h4>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#c4a7e7">package</span> <span style="color:#ea9a97">main</span>
+</span></span><span style="display:flex;"><span><span style="color:#c4a7e7">import</span> <span style="color:#f6c177">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#3e8fb0">func</span> <span style="color:#ea9a97">main</span><span style="color:#908caa">(){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ea9a97">fmt</span><span style="color:#908caa">.</span><span style="color:#ea9a97">Println</span><span style="color:#908caa">(</span><span style="color:#f6c177">&#34;Hello!, World&#34;</span><span style="color:#908caa">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">}</span>
+</span></span></code></pre></div>
+  </div>
+  <hr>
+  
+
+
+
+
+
+
+
+
+
+<nav class="sharebuttons">
+  <span style="font-size: 19px; font-weight: bolder;">Share on:</span>
+  <ul>
+    <li><a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fsumitdhiman.live%2fpost%2fhello-world-in-golang%2f&t=Writing%20your%20first%20Go%20Lang%20program"
+        target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a></li>
+    <li><a href="https://twitter.com/share?text=Writing%20your%20first%20Go%20Lang%20program&url=http%3a%2f%2fsumitdhiman.live%2fpost%2fhello-world-in-golang%2f" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+      </a></li>
+    <li><a
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fsumitdhiman.live%2fpost%2fhello-world-in-golang%2f&title=Writing%20your%20first%20Go%20Lang%20program&summary=Go%2bis%2ban%2bopen-source%252C%2bstatically%2btyped%2bprogramming%2blanguage%2bdesigned%2b%25E2%2580%25A6"
+        target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a></li>
+    <li><a href="whatsapp://send?text=Writing%20your%20first%20Go%20Lang%20program%0a%0aArticle%20to%20implementing%20beginners%20first%20GO%20Lang%20program%0a%0ahttp%3a%2f%2fsumitdhiman.live%2fpost%2fhello-world-in-golang%2f%0a" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a></li>
+    <li><a href="mailto:?subject=Writing%20your%20first%20Go%20Lang%20program&body=Writing%20your%20first%20Go%20Lang%20program%0a%0aArticle%20to%20implementing%20beginners%20first%20GO%20Lang%20program%0a%0ahttp%3a%2f%2fsumitdhiman.live%2fpost%2fhello-world-in-golang%2f%0a" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+      </a></li>
+  </ul>
+</nav>
+<style>
+  i {
+    font-size: 29px;
+    color: white;
+    transition: all 0.5s;
+  }
+
+  i:hover {
+    color: #ff0046;
+    transition: all 0.5s;
+  }
+  .sharebuttons,
+  .sharebuttons ul {
+    display: flex;
+    margin: 0.25rem 0;
+    align-items: center;
+    padding-left: 5px;
+    gap: 15px;
+  }
+
+
+  .sharebuttons span {
+    color: {
+        {
+        $textcolor
+      }
+    }
+
+    ;
+  }
+
+  .sharebuttons ul li {
+    list-style: none;
+    margin: 0;
+  }
+
+  .sharebuttons ul li a {
+    margin: 0 0.5rem;
+    display: block;
+  }
+
+  .sharebuttons ul li:first-child a {
+    margin: 0 0.2rem 0 0.5rem;
+  }
+
+  .sharebuttons ul li a svg {
+    width: auto;
+    height: 1.1rem;
+    display: block;
+  }
+
+  .will-change {
+    transition: 250ms;
+  }
+
+  nav.sharebuttons li>a:hover .will-change {
+    fill: {
+        {
+        $hoverColor
+      }
+    }
+  }
+</style>
+
+</div>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&display=swap');
+  pre {
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    letter-spacing: .5px;
+    box-shadow: -4px 0px 20px #000;
+  }
+
+  pre:hover {
+    color: #000;
+  }
+
+  img {
+    width: 100%;
+    box-shadow: -4px 0px 20px #000;
+    height: 40%;
+  }
+
+  pre::-webkit-scrollbar {
+    background-color: #DED7E6;
+    height: 10px;
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background: #9684A3;
+    border-top-right-radius: 10px;
+  }
+
+  .tag {
+    margin: 0 2px;
+    background-color: #ff0046;
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 80%;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+
+  code {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+      </main>
+    </div>
+
+
+    <footer class="footer">
+  © 2023 Sumit Dhiman, Built with
+  ❤️
+  by
+  <a href="https://github.com/lucifer1708" class="footerLink">Lucifer</a>.
+</footer>
+
+  </div>
+
+  
+  
+  <script src="/js/script.3859f96667ffd9f219fb889d72a4e0a58fb5179c693ec15170e54825fee079b2.js"></script>
+  
+</body>
+
+</html>
