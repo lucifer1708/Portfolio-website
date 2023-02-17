@@ -5,6 +5,9 @@
     <loc>http://sumitdhiman.live/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/projects/archfire/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/tags/beginners/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,6 +29,9 @@
     <loc>http://sumitdhiman.live/post/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/projects/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/categories/syntax/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,7 +44,5 @@
     <loc>http://sumitdhiman.live/about/</loc>
   </url><url>
     <loc>http://sumitdhiman.live/tags/index/</loc>
-  </url><url>
-    <loc>http://sumitdhiman.live/projects/</loc>
   </url>
 </urlset>

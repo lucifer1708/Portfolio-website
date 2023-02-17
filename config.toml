@@ -3,6 +3,9 @@ languageCode = 'en-us'
 publishDir = "docs"
 
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [markup]
   [markup.highlight]
     anchorLineNos = true

@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Archfire: A archlinux based linux distribution</title>
+      <link>http://sumitdhiman.live/projects/archfire/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/archfire/</guid>
+      <description>Archfire is an archlinux based custom distribution for my personal use. It comes with XFCE desktop environment pre-installed &amp;amp; pre-configured within it. It is packed with Calamares installer to make installation of arch linux an easy task. It is already compatible with Nvidia graphics based systems because drivers are already has been setted up. It comes with my personal dotfiles of Neovim, Ranger, alacritty.
+Download Archfire
+Future goals: Adding multiple Desktop environments.</description>
+    </item>
+    
+    <item>
       <title>Writing your first Go Lang program</title>
       <link>http://sumitdhiman.live/post/hello-world-in-golang/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
