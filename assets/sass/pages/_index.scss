@@ -8,6 +8,8 @@
 // .indexHeader {
 //     font-size: 3em;
 // }
+
+
 section {
   height: 100%;
   position: relative;
@@ -26,6 +28,11 @@ section {
     // width: 10em;
     // background: red;
   }
+@media screen and (max-width: 1200px) {
+    &:before{
+      content: attr(data-sub-rp-text);
+    }
+}
 }
 
 
