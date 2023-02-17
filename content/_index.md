@@ -1,3 +1,4 @@
 +++
-author = "Hugo Authors"
+author = "Sumit Dhiman"
+img = "./bg.webp"
 +++

@@ -3,7 +3,9 @@
 .footer {
   padding: 15px;
   text-align: center;
-  background-color: $backgroundDarker;
+  font-family: $fontHeader;
+  font-size: 18px;
+  // background-color: $backgroundDarker;
 }
 
 .footerLink {
