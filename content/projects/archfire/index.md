@@ -1,6 +1,6 @@
 +++
 author = "Sumit Dhiman"
-title = "Archfire: A archlinux based linux distribution"
+title = "Archfire: Archlinux based linux distribution"
 date = "2023-02-14"
 description = "Archlinux based custom distribution for my own likings."
 tags = [
