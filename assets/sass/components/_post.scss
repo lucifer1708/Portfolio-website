@@ -17,6 +17,11 @@
 .postHeader {
   overflow: hidden;
 
+  @media only screen and (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 .postsList {
@@ -34,6 +39,9 @@
   text-decoration: none;
   color: $white;
   font-size: 18px;
+  @media only screen and (max-width: 990px) {
+    text-align: center;
+  }
 }
 
 .headerContainer {
