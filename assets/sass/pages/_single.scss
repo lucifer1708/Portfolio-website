@@ -3,6 +3,11 @@
 .postWrapper {
   margin-top: 65px;
   text-align: left;
-  font-size: 25px;
+  font-size: 21px;
   overflow-x: hidden;
+  inline-size: 100%;
+
+  @media only screen and (max-width: 990px) {
+    font-size: 15px;
+  }
 }
