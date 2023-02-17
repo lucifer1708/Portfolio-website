@@ -17,11 +17,11 @@ series = ["Linux/Unix"]
 aliases = ["My Custom Distribution"]
 +++
 
-For my own usage, I created Archfire, a custom distribution based on Archlinux.
+For my own usage, I created Archfire, a custom distribution based on Arch Linux.
 It comes with the pre-installed and pre-configured XFCE desktop environment.
 It provides the Calamares installer, which makes installing Arch Linux simple.
 Due to already installed drivers, it is already compatible with PCs that use Nvidia graphics.
-It includes my unique dotfiles for Neovim, Ranger, and Acritty. 
+It includes my unique dotfiles for Neovim, Ranger, and Alacritty. 
 
 <a href="https://archfire.sourceforge.net" target="_blank"><button style="
 padding: 13px;

@@ -24,11 +24,6 @@
 
     {{ partial "footer.html" . }}
   </div>
-
-  {{ if site.Params.search }}
-  {{ $searchjs := resources.Get "js/script.js" | resources.ExecuteAsTemplate "js/script.js" . | fingerprint }}
-  <script src="{{ $searchjs.RelPermalink }}"></script>
-  {{ end }}
 </body>
 
 </html>
