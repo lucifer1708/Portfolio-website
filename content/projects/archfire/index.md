@@ -4,17 +4,17 @@ title = "Archfire: A archlinux based linux distribution"
 date = "2023-02-14"
 description = "Archlinux based custom distribution for my own likings."
 tags = [
-    "GO Lang",
-    "Code",
-    "Hello World",
-    "Beginners"
+    "C++",
+    "Arch Linux",
+    "Linux/Unix",
+    "Sys Admin"
 ]
 categories = [
     "Coding",
     "syntax",
 ]
-series = ["Go Lang"]
-aliases = ["Writing Go Lang Code"]
+series = ["Linux/Unix"]
+aliases = ["My Custom Distribution"]
 +++
 
 For my own usage, I created Archfire, a custom distribution based on Archlinux.

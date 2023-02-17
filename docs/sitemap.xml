@@ -5,10 +5,16 @@
     <loc>http://sumitdhiman.live/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/tags/arch-linux/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/projects/archfire/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/tags/beginners/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sumitdhiman.live/tags/c&#43;&#43;/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/categories/</loc>
@@ -35,6 +41,9 @@
     <loc>http://sumitdhiman.live/categories/syntax/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/tags/sys-admin/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/tags/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -44,5 +53,7 @@
     <loc>http://sumitdhiman.live/about/</loc>
   </url><url>
     <loc>http://sumitdhiman.live/tags/index/</loc>
+  </url><url>
+    <loc>http://sumitdhiman.live/tags/linux/unix/</loc>
   </url>
 </urlset>
