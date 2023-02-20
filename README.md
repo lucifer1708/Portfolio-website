@@ -1,4 +1,4 @@
-# Do this repo require any README?
+# Do this repo requires any README?
 
 if yes!!
-mail me at sd08012003@gmail.com
+Mail me at sd08012003@gmail.com
