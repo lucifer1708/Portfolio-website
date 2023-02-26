@@ -14,6 +14,14 @@
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
 
   {{ partial "head.html" . }}
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+    p {
+      font-size: 23px;
+      font-family: 'Mukta', 'sans serif';
+    }
+  </style>
 
 </head>
 
@@ -25,9 +33,11 @@
     <div class="content vertical">
       <h1>About Me</h1>
       <hr>
-        <br>
+      <br>
       <img src="{{ .Params.img }}" alt="">
-      <h1 class="my-name">I'm  <span style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 10px;">Sumit Dhiman</span></h1>
+      <h1 class="my-name">I'm <span
+          style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 10px;">Sumit
+          Dhiman</span></h1>
       {{ .Content }}
       <hr>
       {{ partial "social.html" .}}
