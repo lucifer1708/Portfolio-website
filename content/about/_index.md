@@ -1,6 +1,6 @@
 +++
 author = "Sumit Dhiman"
-img = "./profile.jpg"
+img = "./profile-edited.jpg"
 +++
 
 ### I am a Linux enthusiast & Backend Developer from India.
