@@ -10,7 +10,7 @@ tags = [
 "Developer",
 ]
 +++
-It is a FullStack website made in Django framework to manager and ease the interviews procedure for society named ISTE-NITH.
+It is a FullStack website made in Django framework to manage and ease the interviews procedure for society named ISTE-NITH.
 
 ## Features:
 - Form to submit CV and applications.
