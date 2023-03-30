@@ -11,7 +11,16 @@
     <loc>http://sumitdhiman.live/tags/devops/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/tags/django/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/tags/go/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sumitdhiman.live/tags/interviews-website/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sumitdhiman.live/projects/join.istenith.com/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/tags/microservice/</loc>
@@ -21,6 +30,9 @@
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/projects/</loc>
+    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sumitdhiman.live/tags/python/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/tags/</loc>
@@ -80,13 +92,7 @@
     <loc>http://sumitdhiman.live/post/hello-world-in-golang/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://sumitdhiman.live/tags/django/</loc>
-    <lastmod>2023-01-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://sumitdhiman.live/tags/fullstack-developer/</loc>
-    <lastmod>2023-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://sumitdhiman.live/tags/python/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/projects/recipe_website/</loc>

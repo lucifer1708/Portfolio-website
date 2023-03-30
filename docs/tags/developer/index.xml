@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/developer/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Interviews website - Django</title>
+      <link>http://sumitdhiman.live/projects/join.istenith.com/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/join.istenith.com/</guid>
+      <description>It is a FullStack website made in Django framework to manager and ease the interviews procedure for society named ISTE-NITH.
+Features: Form to submit CV and applications. Admin panel to manage the applicants. Excel and other formats of database exporting to help extracting the data. Media hosting of CVs. Dashboard for managers and admin. Graphs of data. UI/UX made to help user with application. Link to the project</description>
+    </item>
+    
+    <item>
       <title>Microservices - Go Lang</title>
       <link>http://sumitdhiman.live/projects/microservices/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
