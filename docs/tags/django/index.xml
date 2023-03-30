@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on </title>
+    <link>http://sumitdhiman.live/tags/django/</link>
+    <description>Recent content in Django on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recipe Website</title>
+      <link>http://sumitdhiman.live/projects/recipe_website/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/recipe_website/</guid>
+      <description>Building a Django framework website to share recipes with foodies is a terrific way to show off one&amp;rsquo;s culinary chops. You can build a rich and user-friendly recipe website using Django&amp;rsquo;s strong and versatile framework, allowing users to effortlessly browse, search, and exchange recipes.
+User registration and authentication, recipe development and administration, a recipe search and filter system, recipe categorization and tagging, user ratings and comments, and social media sharing are all elements that might be included into the project.</description>
+    </item>
+    
+  </channel>
+</rss>

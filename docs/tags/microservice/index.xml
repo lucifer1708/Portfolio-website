@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microservice on </title>
+    <link>http://sumitdhiman.live/tags/microservice/</link>
+    <description>Recent content in microservice on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/microservice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microservices - Go Lang</title>
+      <link>http://sumitdhiman.live/projects/microservices/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/microservices/</guid>
+      <description>What are microservices? The term &amp;ldquo;microservice&amp;rdquo; refers to a method of software development in which a large application is broken down into a set of smaller services that each operate in their own process and communicate with one another through application programming interfaces. Each microservice in an application is in charge of a single business function and may be built, deployed, and scaled independently. This method facilitates quicker application development and deployment in addition to increased adaptability, scalability, and resilience in complex applications.</description>
+    </item>
+    
+  </channel>
+</rss>

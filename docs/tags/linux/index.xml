@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on </title>
+    <link>http://sumitdhiman.live/tags/linux/</link>
+    <description>Recent content in Linux on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RestAPI - Crud App</title>
+      <link>http://sumitdhiman.live/projects/golang_rest_api_backend/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/golang_rest_api_backend/</guid>
+      <description>Why Go? Go is regarded to be a strong option for backend development for a number of reasons.
+Performance: Since Go is a compiled language, the resultant binary code is quick and efficient. Go was developed with performance in mind, making it an excellent option for creating high-performance backend systems.
+Concurrency: Go&amp;rsquo;s built-in concurrency support enables developers to design code that is both efficient and scalable. Concurrent programming is vital for constructing contemporary backend systems, and goroutines and channels facilitate their creation.</description>
+    </item>
+    
+  </channel>
+</rss>

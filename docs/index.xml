@@ -6,7 +6,27 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microservices - Go Lang</title>
+      <link>http://sumitdhiman.live/projects/microservices/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/microservices/</guid>
+      <description>What are microservices? The term &amp;ldquo;microservice&amp;rdquo; refers to a method of software development in which a large application is broken down into a set of smaller services that each operate in their own process and communicate with one another through application programming interfaces. Each microservice in an application is in charge of a single business function and may be built, deployed, and scaled independently. This method facilitates quicker application development and deployment in addition to increased adaptability, scalability, and resilience in complex applications.</description>
+    </item>
+    
+    <item>
+      <title>RestAPI - Crud App</title>
+      <link>http://sumitdhiman.live/projects/golang_rest_api_backend/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/golang_rest_api_backend/</guid>
+      <description>Why Go? Go is regarded to be a strong option for backend development for a number of reasons.
+Performance: Since Go is a compiled language, the resultant binary code is quick and efficient. Go was developed with performance in mind, making it an excellent option for creating high-performance backend systems.
+Concurrency: Go&amp;rsquo;s built-in concurrency support enables developers to design code that is both efficient and scalable. Concurrent programming is vital for constructing contemporary backend systems, and goroutines and channels facilitate their creation.</description>
+    </item>
+    
     <item>
       <title>Archfire: Archlinux based linux distribution</title>
       <link>http://sumitdhiman.live/projects/archfire/</link>
@@ -25,6 +45,16 @@ Future goals: Adding multiple Desktop environments. Adding support for multiple 
       
       <guid>http://sumitdhiman.live/post/hello-world-in-golang/</guid>
       <description>Go is an open-source, statically typed programming language designed to build scalable, secure, easy-to-use systems. Given that Go Lang was created by Google, Google Go is another moniker for it. It was developed to fill the gap between Java and C++ to provide code that is easy to understand, maintain, and execute without degrading. Go is a compiled language with features that are comparable to those of C and C++ and share the same initial main function.</description>
+    </item>
+    
+    <item>
+      <title>Recipe Website</title>
+      <link>http://sumitdhiman.live/projects/recipe_website/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/recipe_website/</guid>
+      <description>Building a Django framework website to share recipes with foodies is a terrific way to show off one&amp;rsquo;s culinary chops. You can build a rich and user-friendly recipe website using Django&amp;rsquo;s strong and versatile framework, allowing users to effortlessly browse, search, and exchange recipes.
+User registration and authentication, recipe development and administration, a recipe search and filter system, recipe categorization and tagging, user ratings and comments, and social media sharing are all elements that might be included into the project.</description>
     </item>
     
   </channel>

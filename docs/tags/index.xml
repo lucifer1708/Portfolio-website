@@ -6,7 +6,88 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developer</title>
+      <link>http://sumitdhiman.live/tags/developer/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>http://sumitdhiman.live/tags/devops/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://sumitdhiman.live/tags/go/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>microservice</title>
+      <link>http://sumitdhiman.live/tags/microservice/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/microservice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authentication</title>
+      <link>http://sumitdhiman.live/tags/authentication/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backend</title>
+      <link>http://sumitdhiman.live/tags/backend/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gin</title>
+      <link>http://sumitdhiman.live/tags/gin/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/gin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GO Lang</title>
+      <link>http://sumitdhiman.live/tags/go-lang/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/go-lang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://sumitdhiman.live/tags/linux/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Arch Linux</title>
       <link>http://sumitdhiman.live/tags/arch-linux/</link>
@@ -44,15 +125,6 @@
     </item>
     
     <item>
-      <title>GO Lang</title>
-      <link>http://sumitdhiman.live/tags/go-lang/</link>
-      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://sumitdhiman.live/tags/go-lang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hello World</title>
       <link>http://sumitdhiman.live/tags/hello-world/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
@@ -67,6 +139,33 @@
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>http://sumitdhiman.live/tags/sys-admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>http://sumitdhiman.live/tags/django/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fullstack Developer</title>
+      <link>http://sumitdhiman.live/tags/fullstack-developer/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/fullstack-developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://sumitdhiman.live/tags/python/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/tags/python/</guid>
       <description></description>
     </item>
     
