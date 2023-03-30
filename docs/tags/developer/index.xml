@@ -13,7 +13,7 @@
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>http://sumitdhiman.live/projects/join.istenith.com/</guid>
-      <description>It is a FullStack website made in Django framework to manager and ease the interviews procedure for society named ISTE-NITH.
+      <description>It is a FullStack website made in Django framework to manage and ease the interviews procedure for society named ISTE-NITH.
 Features: Form to submit CV and applications. Admin panel to manage the applicants. Excel and other formats of database exporting to help extracting the data. Media hosting of CVs. Dashboard for managers and admin. Graphs of data. UI/UX made to help user with application. Link to the project</description>
     </item>
     
@@ -24,6 +24,16 @@ Features: Form to submit CV and applications. Admin panel to manage the applican
       
       <guid>http://sumitdhiman.live/projects/microservices/</guid>
       <description>What are microservices? The term &amp;ldquo;microservice&amp;rdquo; refers to a method of software development in which a large application is broken down into a set of smaller services that each operate in their own process and communicate with one another through application programming interfaces. Each microservice in an application is in charge of a single business function and may be built, deployed, and scaled independently. This method facilitates quicker application development and deployment in addition to increased adaptability, scalability, and resilience in complex applications.</description>
+    </item>
+    
+    <item>
+      <title>Abhedya - The Cryptic Hunt</title>
+      <link>http://sumitdhiman.live/projects/cryptic_hunt/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/projects/cryptic_hunt/</guid>
+      <description>It is a FullStack website made in Django framework to conduct a event named Abhedya which is online cryptic hunt.
+Features: Features like Login, Sign up, Forgot password, Email verification, etc . Celery to asynchronous sending of emails. Leader board to show the competitors about the results. Hunt Dashboard to manage users and eliminate any faulty entry. Link to the project</description>
     </item>
     
   </channel>
