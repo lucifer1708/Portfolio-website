@@ -1,7 +1,7 @@
 +++
 author = "Sumit Dhiman"
 title = "Interviews website - Django"
-date = "2023-03-28"
+date = "2022-03-28"
 description = "A Full Stack website made in Django framework to manage and ease the interviews procedure for society. "
 tags = [
 "Python",
