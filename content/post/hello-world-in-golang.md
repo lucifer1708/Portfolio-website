@@ -54,7 +54,11 @@ func main(){
     fmt.Println("Hello!, World")
 }
 ```
-
+- run and build the program using command below:
+```bash
+$ go run .
+$ go build
+```
 
 
 
