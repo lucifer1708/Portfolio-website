@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Setting up a simple webserver using Nginx</title>
+      <link>http://sumitdhiman.live/post/web-servers/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://sumitdhiman.live/post/web-servers/</guid>
+      <description>First Step: First of all, we need to access our server&amp;rsquo;s shell. So, we will use SSH to do so. type following command in your local computer&amp;rsquo;s terminal:
+ssh &amp;lt;username&amp;gt;@&amp;lt;ip-addresss&amp;gt; then, enter your password if you havn&amp;rsquo;t added your ssh key on the remote server.
+Second Step: Now , we will be installing our requirements:
+# apt install nginx vim Following command will start the nginx daemon in background and set the service to autostart.</description>
+    </item>
+    
+    <item>
       <title>Writing your first Go Lang program</title>
       <link>http://sumitdhiman.live/post/hello-world-in-golang/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>

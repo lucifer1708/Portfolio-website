@@ -71,10 +71,22 @@
     <loc>http://sumitdhiman.live/tags/hello-world/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/tags/hosting/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sumitdhiman.live/tags/nginx/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/post/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://sumitdhiman.live/post/web-servers/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://sumitdhiman.live/tags/sys-admin/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://sumitdhiman.live/tags/web-server/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://sumitdhiman.live/post/hello-world-in-golang/</loc>

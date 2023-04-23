@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>
+Setting up a simple webserver using Nginx | Sumit Dhiman
+</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="description" content="This is a personal portfolio of Sumit Dhiman.">
+<meta name="keywords" content="linux, backend, portfolio, bash, blog, unix, hugo, NIT Hamirpur, Sumit Dhiman, web development, python, golang ">
+<meta name="author" content="Sumit Dhiman">
+ <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+<meta property="og:site_name" content="Sumit Dhiman">
+<meta name="twitter:domain" property="twitter:domain" content="sumitdhiman.live">
+<meta name="og:title" property="og:title" content="Sumit Dhiman">
+<meta property="og:description" content="This is a personal portfolio of Sumit Dhiman.">
+<meta name="twitter:description" property="twitter:description" content="This is a personal portfolio of Sumit Dhiman">
+<meta name="og:image" content="https://sumitdhiman.live/about/profile.jpg">
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+<link rel="canonical" href="http://sumitdhiman.live/post/web-servers/">
+
+<link rel="stylesheet" href="/css/header.css">
+<link href="/sass/main.min.2f922bec5b1e88a0cd9dc6cedfdf8b2cc073e7eabd392fa5c7acd4f498f7ad0e.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <div class="flexWrapper">
+    <header>
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div style="color: white;" class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+
+        
+        <li><a class="link" href="http://sumitdhiman.live/" title="">Home</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/projects" title="">Projects</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/blog" title="">Blog</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/about" title="">About</a></li>
+        
+        <li><a class="link" href="http://sumitdhiman.live/sumit-dhiman-resume.pdf" title="">Résumé</a></li>
+        
+      </ul>
+      <h1 class="logo"> <a class="logo-link" href="/">lucifer@portfolio ~ $</a></h1>
+    </div>
+  </nav>
+</header>
+
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+
+    <div class="content">
+      <main class="main">
+        
+<div class="postWrapper">
+  <h1 style="text-decoration: underline; text-decoration-color: #ff0046; text-decoration-thickness: 3px;">Setting up a simple webserver using Nginx
+  </h1>
+  <p style="font-size: 20px;"><strong>Author: </strong> Sumit Dhiman</p>
+  Tags:
+  
+  <a href="" class="tag red">Hosting</a>
+  
+  <a href="" class="tag red">Web Server</a>
+  
+  <a href="" class="tag red">Nginx</a>
+  
+  <p style="font-size: 20px;">February 14, 2023</p>
+  <hr>
+  <div>
+    <h2 id="first-step">First Step:</h2>
+<p>First of all, we need to access our server&rsquo;s shell. So, we will use SSH to do so.
+type following command in your local computer&rsquo;s terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh &lt;username&gt;@&lt;ip-addresss&gt;
+</span></span></code></pre></div><p>then, enter your password if you havn&rsquo;t added your ssh key on the remote server.</p>
+<h2 id="second-step">Second Step:</h2>
+<p>Now , we will be installing our requirements:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#6e6a86"># apt install nginx vim</span>
+</span></span></code></pre></div><p>Following command will start the nginx daemon in background and set the service to autostart.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#6e6a86"># systemctl enable --now nginx</span>
+</span></span></code></pre></div><h2 id="third-step">Third Step:</h2>
+<p>create a file as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#6e6a86"># vim /etc/nginx/sites-available/mywebsite</span>
+</span></span></code></pre></div><p>You can change <code>mywebsite</code> to any thing you want.</p>
+<p>Add following content in your file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>server <span style="color:#908caa">{</span>
+</span></span><span style="display:flex;"><span>        listen <span style="color:#f6c177">80</span> <span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>        listen <span style="color:#908caa">[</span>::<span style="color:#908caa">]</span>:80 <span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>        server_name example.org <span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>        root /var/www/mywebsite<span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>        index index.html index.htm index.nginx-debian.html <span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>        location / <span style="color:#908caa">{</span>
+</span></span><span style="display:flex;"><span>                try_files <span style="color:#ea9a97">$uri</span> <span style="color:#ea9a97">$uri</span>/ <span style="color:#908caa">=</span><span style="color:#f6c177">404</span> <span style="color:#908caa">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#908caa">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#908caa">}</span>
+</span></span></code></pre></div><p>Now, we have to add our HTML.
+Create a index.html file using below command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#6e6a86"># mkdir /var/www/mywebsite</span>
+</span></span><span style="display:flex;"><span><span style="color:#6e6a86"># vim /var/www/mywebsite/index.html</span>
+</span></span></code></pre></div><p>Add following html syntax in it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#908caa">&lt;</span><span style="color:#ea9a97">h1</span><span style="color:#908caa">&gt;</span>Your website is running<span style="color:#908caa">&lt;/</span><span style="color:#ea9a97">h1</span><span style="color:#908caa">&gt;</span>
+</span></span></code></pre></div><h2 id="final-step">Final step:</h2>
+<p>Run below command to enable your site config:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#6e6a86"># ln -s /etc/nginx/sites-available/mywebsite /etc/nginx/sites-enabled</span>
+</span></span></code></pre></div><p>Now, reload the nginx daemon using below command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e0def4;background-color:#232136;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#6e6a86"># systemctl restart nginx</span>
+</span></span></code></pre></div><h3 id="now-visit-your-the-url-as-httpip-addresss-and-you-will-see-your-website-running">Now, visit your the url as <code>http://&lt;ip-addresss&gt;</code>. And, you will see your website running.</h3>
+
+  </div>
+  <hr>
+  
+
+
+
+
+
+
+
+
+
+<nav class="sharebuttons">
+  <span style="font-size: 19px; font-weight: bolder;">Share on:</span>
+  <ul>
+    <li><a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fsumitdhiman.live%2fpost%2fweb-servers%2f&t=Setting%20up%20a%20simple%20webserver%20using%20Nginx"
+        target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a></li>
+    <li><a href="https://twitter.com/share?text=Setting%20up%20a%20simple%20webserver%20using%20Nginx&url=http%3a%2f%2fsumitdhiman.live%2fpost%2fweb-servers%2f" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+      </a></li>
+    <li><a
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fsumitdhiman.live%2fpost%2fweb-servers%2f&title=Setting%20up%20a%20simple%20webserver%20using%20Nginx&summary=First%2bStep%253A%2bFirst%2bof%2ball%252C%2bwe%2bneed%2bto%2baccess%2bour%2bserver%2526rsquo%253Bs%2bshell.%2b%25E2%2580%25A6"
+        target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a></li>
+    <li><a href="whatsapp://send?text=Setting%20up%20a%20simple%20webserver%20using%20Nginx%0a%0aThis%20article%20helps%20you%20in%20setting%20up%20a%20simple%20HTML%20website%20on%20a%20webserver%20using%20nginx%20reverse%20proxy.%0a%0ahttp%3a%2f%2fsumitdhiman.live%2fpost%2fweb-servers%2f%0a" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a></li>
+    <li><a href="mailto:?subject=Setting%20up%20a%20simple%20webserver%20using%20Nginx&body=Setting%20up%20a%20simple%20webserver%20using%20Nginx%0a%0aThis%20article%20helps%20you%20in%20setting%20up%20a%20simple%20HTML%20website%20on%20a%20webserver%20using%20nginx%20reverse%20proxy.%0a%0ahttp%3a%2f%2fsumitdhiman.live%2fpost%2fweb-servers%2f%0a" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+      </a></li>
+  </ul>
+</nav>
+<style>
+  i {
+    font-size: 29px;
+    color: white;
+    transition: all 0.5s;
+  }
+
+  i:hover {
+    color: #ff0046;
+    transition: all 0.5s;
+  }
+  .sharebuttons,
+  .sharebuttons ul {
+    display: flex;
+    margin: 0.25rem 0;
+    align-items: center;
+    padding-left: 5px;
+    gap: 15px;
+  }
+
+
+  .sharebuttons span {
+    color: {
+        {
+        $textcolor
+      }
+    }
+
+    ;
+  }
+
+  .sharebuttons ul li {
+    list-style: none;
+    margin: 0;
+  }
+
+  .sharebuttons ul li a {
+    margin: 0 0.5rem;
+    display: block;
+  }
+
+  .sharebuttons ul li:first-child a {
+    margin: 0 0.2rem 0 0.5rem;
+  }
+
+  .sharebuttons ul li a svg {
+    width: auto;
+    height: 1.1rem;
+    display: block;
+  }
+
+  .will-change {
+    transition: 250ms;
+  }
+
+  nav.sharebuttons li>a:hover .will-change {
+    fill: {
+        {
+        $hoverColor
+      }
+    }
+  }
+</style>
+
+</div>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&display=swap');
+
+  pre {
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    letter-spacing: .5px;
+    box-shadow: -4px 0px 20px #000;
+  }
+
+  pre:hover {
+    color: #000;
+  }
+
+  img {
+    width: 100%;
+    box-shadow: -4px 0px 20px #000;
+    height: 40%;
+  }
+
+  pre::-webkit-scrollbar {
+    background-color: #DED7E6;
+    height: 10px;
+  }
+
+  pre::-webkit-scrollbar-thumb {
+    background: #9684A3;
+    border-top-right-radius: 10px;
+  }
+
+  .tag {
+    margin: 0 2px;
+    background-color: #ff0046;
+    padding: 4px 10px;
+    color: #fff;
+    font-size: 80%;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+
+  code {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+   
+   
+   
+</style>
+
+      </main>
+    </div>
+
+
+    <footer class="footer">
+  © 2023 Sumit Dhiman, Built with
+  ❤️
+  by
+  <a href="https://github.com/lucifer1708" style="text-decoration: underline;" class="footerLink">Lucifer</a>.
+</footer>
+
+
+<script src="/js/cursor.js">
+  
+</script>
+
+  </div>
+</body>
+
+</html>
