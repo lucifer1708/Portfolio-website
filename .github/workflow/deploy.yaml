@@ -6,27 +6,31 @@ on:
       - master
 
 jobs:
-  - name: Installing Hugo
-    run: 
-      sudo apt update && sudo apt install hugo
+  test_and_deploy:
+    runs-on: ubuntu-latest
+  
+  steps:
+    - name: Installing Hugo
+      run: 
+        sudo apt update && sudo apt install hugo
 
-  - name: Checkout code
-    uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-  - name: Building website
-    run:
-      hugo
+    - name: Building website
+      run:
+        hugo
 
-  - name: Set up SSH
-    uses: webfactory/ssh-agent@v0.5.1
-    with:
-      ssh-private-key: ${{ secrets.SSH_KEY}}
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.5.1
+      with:
+        ssh-private-key: ${{ secrets.SSH_KEY}}
 
-  - name: Deploy to Server
-    run: |
-      ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
-        cd /var/www/sumitdhiman.in
-        git pull
-      EOF
+    - name: Deploy to Server
+      run: |
+        ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
+          cd /var/www/sumitdhiman.in
+          git pull
+        EOF
 
 
