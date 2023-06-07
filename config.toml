@@ -26,7 +26,7 @@ unsafe= true
   [[menu.header]]
     name = "Résumé"
     weight = 5
-    url = "/sumit-dhiman-resume.pdf"
+    url = "/sumit_dhiman_resume.pdf"
   [[menu.header]]
     name = "About"
     weight = 4
