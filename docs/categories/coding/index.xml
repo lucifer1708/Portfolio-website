@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding on </title>
-    <link>http://sumitdhiman.live/categories/coding/</link>
+    <link>https://www.sumitdhiman.in/categories/coding/</link>
     <description>Recent content in Coding on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://sumitdhiman.live/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sumitdhiman.in/categories/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RestAPI - Crud App</title>
-      <link>http://sumitdhiman.live/projects/golang_rest_api_backend/</link>
+      <link>https://www.sumitdhiman.in/projects/golang_rest_api_backend/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/projects/golang_rest_api_backend/</guid>
+      <guid>https://www.sumitdhiman.in/projects/golang_rest_api_backend/</guid>
       <description>Why Go? Go is regarded to be a strong option for backend development for a number of reasons.
 Performance: Since Go is a compiled language, the resultant binary code is quick and efficient. Go was developed with performance in mind, making it an excellent option for creating high-performance backend systems.
 Concurrency: Go&amp;rsquo;s built-in concurrency support enables developers to design code that is both efficient and scalable. Concurrent programming is vital for constructing contemporary backend systems, and goroutines and channels facilitate their creation.</description>
@@ -20,10 +20,10 @@ Concurrency: Go&amp;rsquo;s built-in concurrency support enables developers to d
     
     <item>
       <title>Archfire: Archlinux based linux distribution</title>
-      <link>http://sumitdhiman.live/projects/archfire/</link>
+      <link>https://www.sumitdhiman.in/projects/archfire/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/projects/archfire/</guid>
+      <guid>https://www.sumitdhiman.in/projects/archfire/</guid>
       <description>For my own usage, I created Archfire, a custom distribution based on Arch Linux. It comes with the pre-installed and pre-configured XFCE desktop environment. It provides the Calamares installer, which makes installing Arch Linux simple. Due to already installed drivers, it is already compatible with PCs that use Nvidia graphics. It includes my unique dotfiles for Neovim, Ranger, and Alacritty.
 Download Archfire
 Future goals: Adding multiple Desktop environments. Adding support for multiple hardwares.</description>
@@ -31,10 +31,10 @@ Future goals: Adding multiple Desktop environments. Adding support for multiple 
     
     <item>
       <title>Setting up a simple webserver using Nginx</title>
-      <link>http://sumitdhiman.live/post/web-servers/</link>
+      <link>https://www.sumitdhiman.in/post/web-servers/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/post/web-servers/</guid>
+      <guid>https://www.sumitdhiman.in/post/web-servers/</guid>
       <description>First Step: First of all, we need to access our server&amp;rsquo;s shell. So, we will use SSH to do so. type following command in your local computer&amp;rsquo;s terminal:
 ssh &amp;lt;username&amp;gt;@&amp;lt;ip-addresss&amp;gt; then, enter your password if you havn&amp;rsquo;t added your ssh key on the remote server.
 Second Step: Now , we will be installing our requirements:
@@ -43,10 +43,10 @@ Second Step: Now , we will be installing our requirements:
     
     <item>
       <title>Writing your first Go Lang program</title>
-      <link>http://sumitdhiman.live/post/hello-world-in-golang/</link>
+      <link>https://www.sumitdhiman.in/post/hello-world-in-golang/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://sumitdhiman.live/post/hello-world-in-golang/</guid>
+      <guid>https://www.sumitdhiman.in/post/hello-world-in-golang/</guid>
       <description>Go is an open-source, statically typed programming language designed to build scalable, secure, easy-to-use systems. Given that Go Lang was created by Google, Google Go is another moniker for it. It was developed to fill the gap between Java and C++ to provide code that is easy to understand, maintain, and execute without degrading. Go is a compiled language with features that are comparable to those of C and C++ and share the same initial main function.</description>
     </item>
     

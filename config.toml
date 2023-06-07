@@ -1,4 +1,4 @@
-baseURL = 'http://sumitdhiman.live'
+baseURL = 'https://www.sumitdhiman.in'
 languageCode = 'en-us'
 publishDir = "docs"
 
