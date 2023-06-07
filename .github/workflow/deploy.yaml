@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  test_and_deploy:
+  deploy:
     runs-on: ubuntu-latest
   
   steps:
@@ -30,7 +30,7 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
           cd /var/www/sumitdhiman.in
-          git pull
+          git pull origin master
         EOF
 
 
