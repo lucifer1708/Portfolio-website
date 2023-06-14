@@ -27,7 +27,7 @@ unsafe= true
   [[menu.header]]
     name = "Résumé"
     weight = 5
-    url = "/sumit_dhiman_resume.pdf"
+    url = "resume"
   [[menu.header]]
     name = "About"
     weight = 4
@@ -66,7 +66,7 @@ icon = "fa-brands fa-linkedin"
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:hello@sumitdhiman.live"
+url = "mailto:hello@sumitdhiman.in"
 icon ="fa-solid fa-envelope"
 
 
