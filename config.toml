@@ -6,6 +6,7 @@ publishDir = "docs"
 [markup.goldmark.renderer]
 unsafe= true
 
+loading="lazy"
 
 [markup]
   [markup.highlight]
