@@ -6,6 +6,7 @@ publishDir = "docs"
 [markup.goldmark.renderer]
 unsafe= true
 
+
 [markup]
   [markup.highlight]
     anchorLineNos = true
@@ -65,7 +66,7 @@ icon = "fa-brands fa-linkedin"
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:sumit@sumitdhiman.live"
+url = "mailto:hello@sumitdhiman.live"
 icon ="fa-solid fa-envelope"
 
 
