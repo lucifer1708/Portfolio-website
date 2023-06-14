@@ -20,7 +20,6 @@ jobs:
             cd /var/www/sumitdhiman.in
             git config pull.rebase false
             git pull origin master
-            hugo
           EOF
 
 
