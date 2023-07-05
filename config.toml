@@ -2,7 +2,6 @@ baseURL = 'https://www.sumitdhiman.in'
 languageCode = 'en-us'
 publishDir = "docs"
 
-
 [markup.goldmark.renderer]
 unsafe= true
 
