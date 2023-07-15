@@ -7,6 +7,7 @@ publishDir = "docs"
 unsafe= true
 
 loading="lazy"
+enableRobotsTXT = true
 
 [markup]
   [markup.highlight]
