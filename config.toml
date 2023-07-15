@@ -4,10 +4,14 @@ publishDir = "docs"
 
 
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 
 loading="lazy"
 enableRobotsTXT = true
+
+[sitemap]
+  ChangeFreq = "daily"
+  Priority = "1"
 
 [markup]
   [markup.highlight]
