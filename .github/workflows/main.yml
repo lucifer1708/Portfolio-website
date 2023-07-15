@@ -13,13 +13,19 @@ jobs:
         uses: webfactory/ssh-agent@v0.5.1
         with:
           ssh-private-key: ${{ secrets.SSH_KEY}}
-
       - name: Deploy to Server
         run: |
           ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
             cd /var/www/sumitdhiman.in
             git config pull.rebase false
             git pull origin master
+          EOF
+
+      - name: Build
+        run: |
+          ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
+            cd /var/www/sumitdhiman.in
+            hugo --minify
           EOF
 
 
