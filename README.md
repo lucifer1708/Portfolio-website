@@ -1,4 +1,4 @@
-# Do this repo requires any README?
+# Does this repo requires any README?
 
 if yes!!
 Mail me at hello@sumitdhiman.in
