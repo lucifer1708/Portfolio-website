@@ -3,9 +3,14 @@ languageCode = 'en-us'
 publishDir = "docs"
 
 [markup.goldmark.renderer]
-unsafe= true
+  unsafe= true
 
 loading="lazy"
+enableRobotsTXT = true
+
+[sitemap]
+  ChangeFreq = "daily"
+  Priority = "1"
 
 [markup]
 taskLists = true
