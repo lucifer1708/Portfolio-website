@@ -8,16 +8,17 @@ unsafe= true
 loading="lazy"
 
 [markup]
+taskLists = true
   [markup.highlight]
     anchorLineNos = true
     codeFences = true
     guessSyntax = true 
-    hl_Lines = ''
+    hl_Lines = 'x'
     hl_inline = false 
     lineAnchors = ''
     lineNoStart = 1
     lineNos = false
-    lineNumbersInTable = false 
+    lineNumbersInTable = true
     noClasses = true
     noHl = true
     style = 'rose-pine-moon'
