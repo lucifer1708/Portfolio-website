@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to Server
         run: |
           ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
-            cd /var/www/sumitdhiman.in
+            cd /var/www/portfolio
             git config pull.rebase false
             git pull origin master
           EOF
@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: |
           ssh -o StrictHostKeyChecking=no root@sumitdhiman.in << EOF
-            cd /var/www/sumitdhiman.in
+            cd /var/www/portfolio
             hugo --minify
           EOF
 
