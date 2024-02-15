@@ -25,17 +25,17 @@ then, enter your password if you havn't added your ssh key on the remote server.
 ## Second Step:
 Now , we will be installing our requirements:
 ```sh
-# apt install nginx vim
+sudo apt install nginx vim
 ```
 Following command will start the nginx daemon in background and set the service to autostart.
 ```sh
-# systemctl enable --now nginx
+sudo systemctl enable --now nginx
 ```
 
 ## Third Step:
 create a file as follows:
 ```sh
-# vim /etc/nginx/sites-available/mywebsite
+sudo vim /etc/nginx/sites-available/mywebsite
 ```
 You can change `mywebsite` to any thing you want.
 
@@ -56,8 +56,8 @@ server {
 Now, we have to add our HTML.
 Create a index.html file using below command:
 ```sh
-# mkdir /var/www/mywebsite
-# vim /var/www/mywebsite/index.html
+sudo mkdir /var/www/mywebsite
+sudo vim /var/www/mywebsite/index.html
 ```
 Add following html syntax in it.
 ```html
@@ -66,11 +66,11 @@ Add following html syntax in it.
 ## Final step:
 Run below command to enable your site config:
 ```sh
-# ln -s /etc/nginx/sites-available/mywebsite /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/mywebsite /etc/nginx/sites-enabled
 ```
 Now, reload the nginx daemon using below command:
 ```sh
-# systemctl restart nginx
+sudo systemctl restart nginx
 ```
 
 ### Now, visit your the url as `http://<ip-addresss>`. And, you will see your website running.

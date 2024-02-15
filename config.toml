@@ -55,7 +55,7 @@ author = "Sumit Dhiman"
 user = "sumit"
 hostname = "portfolio"
 search=true
-search_minify=false
+search_minify=true
 
 [[params.social]]
 key = 0
@@ -78,4 +78,4 @@ icon ="fa-solid fa-envelope"
 
 [outputs]
   home = ['HTML', 'RSS']
-  page = ['HTML']
+  page = ['HTML', 'RSS']
